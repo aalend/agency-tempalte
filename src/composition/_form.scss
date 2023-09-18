@@ -1,0 +1,15 @@
+.form__group,
+.form__item {
+  display: flex;
+  flex-direction: column;
+}
+
+.form textarea,
+.form button {
+  width: 100%;
+}
+
+.form button {
+  background-color: var(--bg-primary);
+  cursor: pointer;
+}

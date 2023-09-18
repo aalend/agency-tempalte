@@ -207,49 +207,57 @@
       <section class="cta">
         <div class="container p-block-2xl">
           <h2 data-state="paragraph">Let's make some magic together</h2>
-          <form action="" class="container">
-            <label class="sr-only" for="email">Email</label>
-            <input
-              type="email"
-              id="email"
-              name="email"
-              required
-              placeholder="Enter your email..."
-              aria-labelledby="email"
-            />
-            <button type="submit">Get started</button>
+          <form action="" class="form | container p-block-md flow">
+            <div class="form__group">
+              <label class="sr-only" for="email">Email</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                required
+                placeholder="Enter your email..."
+                aria-labelledby="email"
+              />
+              <button class="cta__button" type="submit">Get started</button>
+            </div>
             <div>
-              <label for="agreement">
-                By signing up you agree to our
-                <a href="/" id="terms-link"> Terms & Conditions </a>
-              </label>
               <input
                 type="checkbox"
                 id="agreement"
                 name="agreement"
                 aria-labelledby="terms-link"
               />
+              <label for="agreement">
+                By signing up you agree to our
+                <a href="/" id="terms-link"> Terms & Conditions </a>
+              </label>
             </div>
           </form>
         </div>
       </section>
       <section class="contact-us">
-        <form action="" class="container p-block-2xl">
-          <label for="name">Name</label>
-          <input type="text" id="name" name="name" aria-labelledby="name" required />
-
-          <label for="email">Email</label>
-          <input type="email" id="email" name="email" aria-labelledby="email" required />
-
-          <label for="message">Message</label>
-          <textarea
-            id="message"
-            name="message"
-            cols="30"
-            rows="10"
-            aria-labelledby="message"
-            required
-          ></textarea>
+        <form action="" class="form | container p-block-2xl flow">
+          <div class="form__group | flow">
+            <div class="form__item">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" aria-labelledby="name" required />
+            </div>
+            <div class="form__item">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" aria-labelledby="email" required />
+            </div>
+          </div>
+          <div>
+            <label for="message">Message</label>
+            <textarea
+              id="message"
+              name="message"
+              cols="30"
+              rows="10"
+              aria-labelledby="message"
+              required
+            ></textarea>
+          </div>
           <fieldset>
             <legend>What are you looking for</legend>
             <label>
