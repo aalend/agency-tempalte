@@ -1,0 +1,19 @@
+.columns {
+  --basis: 18.75rem;
+
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--size-md);
+}
+
+.columns > * {
+  flex: 1 1 var(--basis);
+}
+
+@media (min-width: 64.87rem) {
+  .columns > * {
+    --basis: 25rem;
+
+    flex-basis: var(--basis);
+  }
+}

@@ -1,0 +1,25 @@
+.testimonials__item,
+.feature__item {
+  --basis: 23rem;
+
+  display: grid;
+  justify-items: center;
+  gap: var(--size-md);
+  text-align: center;
+
+  & img {
+    --img-width: 6rem;
+
+    display: grid;
+    align-items: center;
+    max-width: var(--img-width);
+  }
+}
+
+.testimonials__item {
+  & img {
+    --img-width: 6rem;
+
+    border-radius: 50%;
+  }
+}

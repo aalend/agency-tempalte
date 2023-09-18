@@ -1,0 +1,46 @@
+// This is the main configuration file for the project.
+// It contains settings for project-specific options.
+
+$spacing: (
+  /* 2xs: 5px → 5px */ 2xs: clamp(0.31rem, calc(0.31rem + 0vw), 0.31rem),
+  /* xs: 9px → 11px */ xs: clamp(0.56rem, calc(0.52rem + 0.23vw), 0.69rem),
+  /* sm: 14px → 16px */ sm: clamp(0.88rem, calc(0.83rem + 0.23vw), 1rem),
+  /* base: 18px → 21px */ base: clamp(1.13rem, calc(1.06rem + 0.34vw), 1.31rem),
+  /* md: 27px → 32px */ md: clamp(1.69rem, calc(1.57rem + 0.57vw), 2rem),
+  /* lg: 36px → 42px */ lg: clamp(2.25rem, calc(2.11rem + 0.68vw), 2.63rem),
+  /* xl: 54px → 63px */ xl: clamp(3.38rem, calc(3.17rem + 1.02vw), 3.94rem),
+  /* 2xl: 72px → 84px */ 2xl: clamp(4.5rem, calc(4.23rem + 1.36vw), 5.25rem),
+  /* 3xl: 108px → 126px */ 3xl: clamp(6.75rem, calc(6.34rem + 2.05vw), 7.88rem)
+);
+
+$font-family: (
+  base: 'Inter',
+);
+
+$leading: (
+  none: 1,
+  tight: 1.25,
+  snug: 1.375,
+  normal: 1.5,
+  relaxed: 1.625,
+  loose: 2,
+);
+
+$typography: (
+  /* sm: 13.50px → 15.75px */ sm: clamp(0.84rem, calc(0.79rem + 0.26vw), 0.98rem),
+  /* base: 18.00px → 21.00px */ base: clamp(1.13rem, calc(1.06rem + 0.34vw), 1.31rem),
+  /* md: 23.99px → 27.99px */ md: clamp(1.5rem, calc(1.41rem + 0.45vw), 1.75rem),
+  /* lg: 31.98px → 37.31px */ lg: clamp(2rem, calc(1.88rem + 0.61vw), 2.33rem),
+  /* xl: 42.63px → 49.74px */ xl: clamp(2.66rem, calc(2.5rem + 0.81vw), 3.11rem),
+  /* 2xl: 56.83px → 66.30px */ 2xl: clamp(3.55rem, calc(3.34rem + 1.08vw), 4.14rem),
+  /* 3xl: 75.76px → 88.38px */ 3xl: clamp(4.74rem, calc(4.45rem + 1.43vw), 5.52rem),
+  /* 4xl: 100.98px → 117.81px */ 4xl: clamp(6.31rem, calc(5.93rem + 1.91vw), 7.36rem)
+);
+
+$colors: (
+  dark: #232323,
+  light: #ffffff,
+  primary: #dcf2e7,
+  secondary: #fcfcfc,
+  accent: #df81df,
+);

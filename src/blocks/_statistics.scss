@@ -1,0 +1,15 @@
+.statistics .info-box {
+  background-color: var(--bg-primary);
+
+  &:nth-child(2) {
+    filter: hue-rotate(180deg);
+  }
+
+  &:nth-child(3) {
+    filter: hue-rotate(240deg);
+  }
+
+  &:nth-child(4) {
+    filter: hue-rotate(120deg);
+  }
+}

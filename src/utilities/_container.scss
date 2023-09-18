@@ -1,0 +1,12 @@
+.container {
+  --wrapper-size: 75rem; /* 1200px */
+  --padding-inline: 1rem;
+
+  width: min(var(--wrapper-size), 100% - var(--padding-inline) * 2);
+  padding-inline: var(--padding-inline);
+  margin-inline: auto;
+}
+
+.wrapper[data-state='wide'] {
+  --wrapper-size: 110rem; /* 1760px */
+}

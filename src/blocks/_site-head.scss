@@ -1,0 +1,15 @@
+.site-head {
+  &__inner {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+  }
+
+  & .brand {
+    justify-self: center;
+  }
+
+  & div:has(button[class='menu-toggle']) {
+    justify-self: end;
+  }
+}

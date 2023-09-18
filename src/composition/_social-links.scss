@@ -1,0 +1,12 @@
+.social-links {
+  display: flex;
+  gap: var(--size-2xs);
+
+  & li {
+    padding: var(--size-xs);
+  }
+
+  & li:first-child {
+    padding-inline-start: 0;
+  }
+}

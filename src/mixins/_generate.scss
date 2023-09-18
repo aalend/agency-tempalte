@@ -1,0 +1,14 @@
+// Creates utility classes for whole project that can be used insde HTML.
+@mixin createUtils($property, $map) {
+  @each $key, $value in $map {
+    &-#{$key} {
+      #{$property}: $value;
+    }
+  }
+}
+
+@mixin createCSSVariables($prefix, $map) {
+  @each $key, $value in $map {
+    --#{$prefix}-#{$key}: #{$value};
+  }
+}

@@ -1,0 +1,35 @@
+@use '../config' as *;
+@use '../mixins' as *;
+
+:root {
+  @include createCSSVariables('size', $spacing);
+  @include createCSSVariables('ff', $font-family);
+  @include createCSSVariables('text', $typography);
+  @include createCSSVariables('leading', $leading);
+  @include createCSSVariables('bg', $colors);
+  @include createCSSVariables('text', $colors);
+}
+
+.p {
+  @include createUtils('padding', $spacing);
+}
+
+.p-block {
+  @include createUtils('padding-block', $spacing);
+}
+
+.p-inline {
+  @include createUtils('padding-inline', $spacing);
+}
+
+.m {
+  @include createUtils('margin', $spacing);
+}
+
+.m-block {
+  @include createUtils('margin-block', $spacing);
+}
+
+.m-inline {
+  @include createUtils('margin-inline', $spacing);
+}
