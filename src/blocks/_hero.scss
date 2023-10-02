@@ -1,0 +1,27 @@
+.hero {
+  text-align: center;
+
+  & h1 {
+    font-size: var(--text-xl);
+  }
+
+  & a {
+    padding: var(--size-xs) var(--size-base);
+    text-decoration: none;
+    background-color: var(--bg-primary);
+    color: inherit;
+    border-radius: var(--size-xs);
+  }
+}
+
+@media (min-width: 22.5rem) {
+  .hero h1 {
+    font-size: var(--text-3xl);
+  }
+}
+
+@media (min-width: 42.5rem) {
+  .hero h1 {
+    font-size: var(--text-4xl);
+  }
+}

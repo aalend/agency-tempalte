@@ -1,5 +1,15 @@
 .statistics .info-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   background-color: var(--bg-primary);
+  border-radius: var(--size-xs);
+
+  & > :first-child {
+    font-size: var(--text-xl);
+    font-weight: 700;
+  }
 
   &:nth-child(2) {
     filter: hue-rotate(180deg);

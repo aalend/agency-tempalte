@@ -1,0 +1,8 @@
+.features {
+  &__item {
+    padding-block: var(--size-xl);
+    padding-inline: var(--size-md);
+    background-color: var(--bg-primary);
+    border-radius: var(--size-xs);
+  }
+}
