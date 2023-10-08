@@ -1,0 +1,13 @@
+.address-link {
+  padding: var(--size-2xs) var(--size-base);
+  text-decoration: none;
+  color: inherit;
+  border: 2px solid var(--bg-dark);
+  border-radius: var(--size-3xl);
+  transition: color 75ms ease-in, background-color 75ms ease-in;
+
+  &[data-state='dark'] {
+    background-color: var(--bg-light);
+    color: var(--text-dark);
+  }
+}

@@ -1,0 +1,14 @@
+address {
+  display: flex;
+  flex-direction: column;
+  gap: var(--size-xl);
+
+  @media (min-width: 42.5rem) {
+    flex-direction: row;
+  }
+
+  & p {
+    display: flex;
+    flex-direction: column;
+  }
+}

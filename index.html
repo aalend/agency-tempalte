@@ -247,6 +247,7 @@
       </section>
       <section class="contact-us">
         <form action="" class="form | container p-block-2xl flow">
+          <h2>Contact Us</h2>
           <div class="form__group">
             <div class="form__item">
               <label for="name">Name</label>
@@ -257,7 +258,7 @@
               <input type="email" id="email" name="email" aria-labelledby="email" required />
             </div>
           </div>
-          <div>
+          <div class="form__item">
             <label for="message">Message</label>
             <textarea
               id="message"
@@ -297,7 +298,45 @@
       </section>
     </main>
     <footer class="site-foot">
-      <div class="container p-block-2xl"></div>
+      <section class="container | flow | p-block-2xl">
+        <div class="flow">
+          <a class="address-link" data-state="dark" href="/">Visit us</a>
+          <address>
+            <p>
+              <span>Chicago</span>
+              <span>789 Maple Drive</span>
+              <span>Suite 22, CHicago</span>
+              <span>IL</span>
+            </p>
+            <p>
+              <span>Los Angeles</span>
+              <span>456 Elm Avenue</span>
+              <span>Suite 8, Los Angeles</span>
+              <span>CA</span>
+            </p>
+            <p>
+              <span>Huston</span>
+              <span>987 Oak Lane</span>
+              <span>Suite 10, Huston</span>
+              <span>TX</span>
+            </p>
+          </address>
+        </div>
+        <div>
+          <a class="address-link" data-state="dark" href="/">Stay in touch</a>
+          <ul class="site-foot__contact">
+            <li><a href="tel:+1123400089">+1 123 40 00 89</a></li>
+            <li><a href="mailto:info@agency.com">info@agency.com</a></li>
+          </ul>
+        </div>
+        <div>
+          <p class="copyright">
+            This code is provided by Alen Demirov. Visit my
+            <a href="https://github.com/aalend" target="_blank">github</a> or
+            <a href="http://alendemirov.netlify.app" target="_blank">personal website</a>.
+          </p>
+        </div>
+      </section>
     </footer>
   </body>
 </html>
